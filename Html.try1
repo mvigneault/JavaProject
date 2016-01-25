@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1><center>You need to upgrade your browser to use this Applet</center></h1>
+<p>This is a paragraph.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+
+<p><a href="https://www.google.com/chrome/browser/desktop/index.html" target="_blank">Windows 10/11/12 Google Chrome Download/Update</a></p>
+<p>  Click on "Download Chrome for another platform" to access the windows download.</p>
+
+<p><a href="https://www.google.com/chrome/browser/desktop/index.html" target="_blank">Mac Google Chrome Download/Update</a></p>
+<p><a href="http://www.seamonkey-project.org/releases/" target="_blank">SeaMonkey Download/Update</a></p> 
+<p>follow instructions on site to access correct download for your system type.</p>
+<p><a href="https://support.apple.com/kb/DL1569?viewlocale=en_US&locale=en_US" target="_blank">Safari Download/Update</a></p>
+
+
+
+<script type="text/javascript">
+function myFunction() {
+	alert("Your browser cannot open this file.")
+    var btn = document.createElement("BUTTON");
+    var t = document.createTextNode("CLICK ME");
+    btn.appendChild(t);
+    document.body.appendChild(btn);
+}
+
+        
+        
+
+
+
+<p><a href="https://support.mozilla.org/en-US/kb/update-firefox-latest-version">Learn how to update your Browser</a></p>
+
+
+</script>
+
+
+</body>
+</html>
